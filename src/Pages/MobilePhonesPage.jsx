@@ -7,6 +7,16 @@ import ProductHeader from "../components/ProductHeader";
 import ProductCard from "../components/ProductCard";
 import Pagination from "../components/Pagination";
 import Footer from "../components/Footer";
+import img1 from "../assets/products/1.png"
+import img2 from "../assets/products/2.png"
+import img3 from "../assets/products/3.jpg"
+import img4 from "../assets/products/4.jpg"
+import img5 from "../assets/products/5.jpg"
+import img8 from "../assets/products/8.png"
+import img9 from "../assets/products/9.png"
+import img10 from "../assets/products/10.jpg"
+import img11 from "../assets/products/11.png"
+import img12 from "../assets/products/12.jpg"
 
 const MobilePhonesPage = () => {
   const products = [
@@ -16,7 +26,7 @@ const MobilePhonesPage = () => {
       price: 70,
       rating: 5,
       reviews: 738,
-      image: "/api/placeholder/300/300",
+      image: img1,
       badge: "SALE",
     },
     {
@@ -25,7 +35,7 @@ const MobilePhonesPage = () => {
       price: 2300,
       rating: 4,
       reviews: 536,
-      image: "/api/placeholder/300/300",
+      image: img2,
     },
     {
       id: 3,
@@ -33,7 +43,7 @@ const MobilePhonesPage = () => {
       price: 360,
       rating: 5,
       reviews: 423,
-      image: "/api/placeholder/300/300",
+      image: img3,
     },
     {
       id: 4,
@@ -41,7 +51,7 @@ const MobilePhonesPage = () => {
       price: 80,
       rating: 4,
       reviews: 816,
-      image: "/api/placeholder/300/300",
+      image: img4,
       badge: "25% OFF",
     },
     {
@@ -50,7 +60,7 @@ const MobilePhonesPage = () => {
       price: 1500,
       rating: 4,
       reviews: 578,
-      image: "/api/placeholder/300/300",
+      image: img5,
       badge: "HOT",
     },
     {
@@ -59,7 +69,7 @@ const MobilePhonesPage = () => {
       price: 1200,
       rating: 5,
       reviews: 423,
-      image: "/api/placeholder/300/300",
+      image: img4,
       badge: "25% OFF",
     },
     {
@@ -68,7 +78,7 @@ const MobilePhonesPage = () => {
       price: 250,
       rating: 4,
       reviews: 823,
-      image: "/api/placeholder/300/300",
+      image: img3,
     },
     {
       id: 8,
@@ -76,7 +86,7 @@ const MobilePhonesPage = () => {
       price: 865,
       rating: 5,
       reviews: 738,
-      image: "/api/placeholder/300/300",
+      image: img8,
       badge: "BEST",
     },
     {
@@ -85,7 +95,7 @@ const MobilePhonesPage = () => {
       price: 1600,
       rating: 4,
       reviews: 536,
-      image: "/api/placeholder/300/300",
+      image: img9,
       badge: "BEST DEALS",
     },
     {
@@ -94,7 +104,7 @@ const MobilePhonesPage = () => {
       price: 250,
       rating: 5,
       reviews: 434,
-      image: "/api/placeholder/300/300",
+      image: img10,
     },
     {
       id: 11,
@@ -102,7 +112,7 @@ const MobilePhonesPage = () => {
       price: 80,
       rating: 3,
       reviews: 816,
-      image: "/api/placeholder/300/300",
+      image: img11,
     },
     {
       id: 12,
@@ -110,7 +120,7 @@ const MobilePhonesPage = () => {
       price: 70,
       rating: 5,
       reviews: 834,
-      image: "/api/placeholder/300/300",
+      image: img12,
     },
   ];
 

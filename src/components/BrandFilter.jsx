@@ -22,7 +22,7 @@ const BrandFilter = () => {
           <label key={index} className="flex items-center gap-2 cursor-pointer">
             <input
               type="checkbox"
-              className="w-4 h-4"
+              className="w-4 h-4 accent-black"
               defaultChecked={brand.checked}
             />
             <span className="text-sm text-gray-700">{brand.name}</span>
