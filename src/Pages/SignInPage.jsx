@@ -2,7 +2,7 @@ import bgImage from "../assets/loginPagesBg.jpg";
 import { FiUser } from "react-icons/fi";
 
 const SignInPage = () => {
-//   const [isUserLogin, setIsUserLogin] = useState(true);
+  //   const [isUserLogin, setIsUserLogin] = useState(true);
 
   return (
     <div
@@ -12,7 +12,6 @@ const SignInPage = () => {
         backgroundPosition: "center center",
         backgroundSize: "cover",
         backgroundRepeat: "no-repeat",
-        
       }}
     >
       {/* Content */}
