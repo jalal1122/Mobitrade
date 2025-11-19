@@ -14,6 +14,8 @@ const SignInPage = () => {
         backgroundRepeat: "no-repeat",
       }}
     >
+      <div className="absolute top-0 left-0 right-0 bottom-0 bg-black/30"></div>
+
       {/* Content */}
       <div className="relative z-10 min-h-screen flex flex-col items-center justify-center px-4 py-12">
         {/* Logo */}
