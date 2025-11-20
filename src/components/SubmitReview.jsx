@@ -1,11 +1,11 @@
-import React from 'react'
-import { User, Mail, Star, MessageSquare } from 'lucide-react'
+import React from "react";
+import { User, Mail, Star, MessageSquare } from "lucide-react";
 
 const SubmitReview = () => {
   return (
     <div className="mt-12 bg-white rounded-lg border border-gray-200 p-6 sm:p-8">
       <h2 className="text-2xl font-bold text-gray-900 mb-6">SUBMIT REVIEW</h2>
-      
+
       <form className="space-y-5">
         {/* Name Input */}
         <div className="relative">
@@ -45,8 +45,18 @@ const SubmitReview = () => {
             <option>⭐⭐⭐⭐⭐ 5 Stars</option>
           </select>
           <div className="absolute right-4 top-1/2 -translate-y-1/2 pointer-events-none">
-            <svg className="w-5 h-5 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+            <svg
+              className="w-5 h-5 text-gray-400"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth={2}
+                d="M19 9l-7 7-7-7"
+              />
             </svg>
           </div>
         </div>
@@ -72,7 +82,7 @@ const SubmitReview = () => {
         </button>
       </form>
     </div>
-  )
-}
+  );
+};
 
-export default SubmitReview
+export default SubmitReview;

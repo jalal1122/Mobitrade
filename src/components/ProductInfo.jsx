@@ -1,5 +1,5 @@
-import React from 'react'
-import { Star, ShoppingCart } from 'lucide-react'
+import React from "react";
+import { Star, ShoppingCart } from "lucide-react";
 
 const ProductInfo = () => {
   return (
@@ -8,7 +8,11 @@ const ProductInfo = () => {
       <div className="flex items-center gap-2">
         <div className="flex gap-1">
           {[...Array(5)].map((_, i) => (
-            <Star key={i} size={20} className="fill-orange-400 text-orange-400" />
+            <Star
+              key={i}
+              size={20}
+              className="fill-orange-400 text-orange-400"
+            />
           ))}
         </div>
         <span className="text-sm text-gray-600">4.7 Star Rating</span>
@@ -17,14 +21,17 @@ const ProductInfo = () => {
 
       {/* Product Title */}
       <h1 className="text-2xl sm:text-3xl font-bold text-gray-900">
-        iPhone 14 Pro Max with A16 Bionic Chip (6.7-inch) display, 6GB RAM, 128GB storage) - Deep Purple
+        iPhone 14 Pro Max with A16 Bionic Chip (6.7-inch) display, 6GB RAM,
+        128GB storage) - Deep Purple
       </h1>
 
       {/* Availability and Brand */}
       <div className="flex flex-wrap items-center gap-4 text-sm">
         <div>
           <span className="text-gray-600">Availability: </span>
-          <span className="text-green-600 font-semibold">Remaining 3 in Stock</span>
+          <span className="text-green-600 font-semibold">
+            Remaining 3 in Stock
+          </span>
         </div>
         <div>
           <span className="text-gray-600">Brand: </span>
@@ -43,9 +50,7 @@ const ProductInfo = () => {
       </div>
 
       {/* Price */}
-      <div className="text-4xl font-bold text-gray-900">
-        $1699
-      </div>
+      <div className="text-4xl font-bold text-gray-900">$1699</div>
 
       {/* Specifications Table */}
       <div className="grid grid-cols-2 gap-4 py-4 border-t border-b border-gray-200">
@@ -73,7 +78,7 @@ const ProductInfo = () => {
         <ShoppingCart size={20} />
       </button>
     </div>
-  )
-}
+  );
+};
 
-export default ProductInfo
+export default ProductInfo;
