@@ -1,3 +1,4 @@
+import { Check } from "lucide-react";
 import "./App.css";
 import AdminLoginPage from "./Pages/AdminLoginPage";
 import LandingPage from "./Pages/LandingPage";
@@ -5,6 +6,7 @@ import MobilePhonesPage from "./Pages/MobilePhonesPage";
 import ProductDetailPage from "./Pages/ProductDetailPage";
 import ShoppingCartPage from "./Pages/ShoppingCartPage";
 import SignInPage from "./Pages/SignInPage";
+import CheckoutPage from "./Pages/CheckoutPage";
 
 function App() {
   return (
@@ -14,7 +16,8 @@ function App() {
       {/* <SignInPage /> */}
       {/* <AdminLoginPage /> */}
       {/* <ProductDetailPage /> */}
-      <ShoppingCartPage />
+      {/* <ShoppingCartPage /> */}
+      <CheckoutPage />
     </>
   );
 }
