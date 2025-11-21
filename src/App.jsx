@@ -7,6 +7,7 @@ import ProductDetailPage from "./Pages/ProductDetailPage";
 import ShoppingCartPage from "./Pages/ShoppingCartPage";
 import SignInPage from "./Pages/SignInPage";
 import CheckoutPage from "./Pages/CheckoutPage";
+import OrderConfirmPage from "./Pages/OrderConfirmPage";
 
 function App() {
   return (
@@ -17,7 +18,8 @@ function App() {
       {/* <AdminLoginPage /> */}
       {/* <ProductDetailPage /> */}
       {/* <ShoppingCartPage /> */}
-      <CheckoutPage />
+      {/* <CheckoutPage /> */}
+      <OrderConfirmPage />
     </>
   );
 }
